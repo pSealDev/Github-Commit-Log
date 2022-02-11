@@ -1,8 +1,21 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# PSeal Github API Commit Log for Chronosphere
+
+PSeal Github API Commit Log is an app that returns all commit messages and links for the given username and reponame. 
+
+![image info](./src/images/chrono_form_img.png)
+_____________________________________________________________________________________________________________________
+
+The commit feed only returns the date, commit message with a link, and the name of the author. 
+
+![image info](./src/images/chrono_form_img_2.png)
+
+### Installation
+
+### `npm install`
+This will install all the dependencies.
+
 
 In the project directory, you can run:
 
@@ -11,60 +24,32 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm run test`
 
-### `npm test`
+This will run the available unit tests. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All tests are powered by React-Testing-Library and testing-library/jest-dom
 
-### `npm run build`
+### More about the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Github access token
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The github access token is available in the "github_access_token.txt. This token will only be good for about 30 days, since this is a temporary project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Page not found
 
-### `npm run eject`
+The project should return a "page not found" view if a url path is not valid. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### does/not/exist
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app should append to the url "does/not/exist" if the wrong userName or repoName is input by the user, and should stay on the home form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Todo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I would like to add more unit tests, especially for the results page.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

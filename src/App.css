@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  margin: 0;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dmsans/v10/rP2Hp2ywxg089UriCZ2IHSeH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  background-color: #151920; 
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-info { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width:300px;
+  height:300px;
 }
+.form-info h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input { 
+  width: 100%; 
+  margin-bottom: 10px; 
+  background: lightgrey;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: black;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+
 }
+/* input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); } */
