@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 PSeal Github API Commit Log is an app that returns all commit messages and links for the given username and reponame. 
 
+This was built using ReactJS, Material-UI, ContextAPI for state management, and React-Testing-Library. 
+
 ![image info](./src/images/chrono_form_img.png)
 _____________________________________________________________________________________________________________________
 
