@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# PSeal Github API Commit Log for Chronosphere
+# PSeal Github API Commit Log
 
 PSeal Github API Commit Log is an app that returns all commit messages and links for the given username and reponame. 
 
