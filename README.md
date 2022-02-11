@@ -34,7 +34,7 @@ All tests are powered by React-Testing-Library and testing-library/jest-dom
 
 ### Github access token
 
-The github access token is available in the "github_access_token.txt. This token will only be good for about 30 days, since this is a temporary project.
+You will need a Github Access Token.
 
 ### Page not found
 
